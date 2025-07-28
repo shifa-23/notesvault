@@ -48,11 +48,14 @@ notesvault/
 ---
 
 ### 🛠 Getting Started
-Clone the Repository
-```
+
+#### 🔄 Clone the Repository
+
+```bash
 git clone https://github.com/opensource-society/NotesVault.git
 cd NotesVault
 ```
+
 ---
 
 ## Run the App
