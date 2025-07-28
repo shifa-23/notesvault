@@ -1,7 +1,7 @@
 # 📚 NotesVault – Academic Notes & PYQs Manager
 
 NotesVault is a beginner-friendly, open-source web application built to simplify academic life for students. It allows you to seamlessly upload, browse, and manage your notes and previous year questions (PYQs) — all in one centralized platform. With a sleek interface, semester-wise organization, and powerful upcoming features like smart filtering and tag-based search, NotesVault is your ultimate study companion for efficient, organized learning.
-
+ 
 ---
 
 ## 🚀 About NotesVault
@@ -62,25 +62,29 @@ cd NotesVault
 You can run NotesVault by simply opening index.html in your browser.
 All data is stored locally using JSON or localStorage.
 
+---
 
-
-## 👨‍💻 Contributing
+### 👨‍💻 Contributing
 
 We welcome all contributions — especially from beginners!  
 📖 See `CONTRIBUTING.md` for contribution guidelines.
 
 ---
 
-## 👩‍🏫 Meet Your Learning Buddy
+### 👩‍🏫 Meet Your Learning Buddy
 
 🧠 "Sort the chaos."  
 ⬆️ "Upload effortlessly."  
 📦 "Access everything in one place."
 
-## 📄 License
+---
+
+### 📄 License
 📝 This project is licensed under the MIT License.
 
-## 💬 Community & Support
+---
+
+### 💬 Community & Support
 🐛 Open issues or bugs in GitHub Issues
 ⭐ Star the repository to support our work!
 
