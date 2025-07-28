@@ -1,76 +1,83 @@
-📚 NotesVault – Academic Notes & PYQs Manager
-NotesVault is a beginner-friendly, open-source web app designed to help students store, browse, and manage academic notes and previous year questions (PYQs) in one place. This project is perfect for contributors who want to build and grow a useful educational tool from scratch.
+# 📚 NotesVault – Academic Notes & PYQs Manager
 
-✨ Features (Planned & In Progress)
-✅ Browse notes and PYQs by subject/semester
+NotesVault is a beginner-friendly, open-source web app designed to help students store, browse, and manage academic notes and previous year questions (PYQs) all in one place. With a clean UI, semester-wise sorting, and upcoming advanced filtering, NotesVault is your go-to companion for organized learning.
 
-✅ Search and filter by keywords
+---
 
-✅ Add new notes manually (or from JSON for demo)
+## 🚀 About NotesVault
 
-✅ Responsive design for all devices
+**NotesVault** is built with simplicity and organization in mind. Whether you’re uploading notes or finding them quickly before an exam, NotesVault offers:
 
-✅ Dark/light mode toggle
+- 📁 Notes organized by **semester**
+- 🔍 Easy **search** and **filtering**
+- 🌙 Light & dark **theme support**
+- 🧩 Beginner-friendly **contribution setup**
 
-⏳ Upload UI and metadata editing (Upcoming)
+> *"Keep your study notes and PYQs organized, easy to find, and always just a click away with NotesVault."*
 
-⏳ Tag-based filtering (Upcoming)
+---
 
-📁 Folder Structure (Suggested)
-graphql
-Copy code
+## ✨ Features
+
+- ✅ **Browse** notes and PYQs by subject/semester  
+- ✅ **Search and filter** by keywords  
+- ✅ **Upload notes** with a clean UI (in progress)  
+- ✅ Fully **responsive design**  
+- ✅ Toggle between **light/dark mode**  
+- ⏳ **Tag-based filtering** *(upcoming)*  
+- ⏳ **Metadata editing** *(upcoming)*  
+
+---
+
+## 🗂 Folder Structure
+
+```bash
 notesvault/
 ├── index.html         # Homepage UI
-├── style.css          # Global styles and theming
-├── script.js          # Application logic (load/display/filter)
-├── data/              # JSON files for notes/PYQs
+├── style.css          # Global styles
+├── script.js          # Core logic
+├── data/              # JSON for notes/PYQs
 │   └── notes.json
-├── assets/            # Icons, PDFs, static files
-├── pages/             # All HTML pages used in the project
-├── scripts/           # Additional JS logic (if needed)
-├── styling/           # Extra CSS files or themes
+├── assets/            # Icons, PDFs, etc.
+├── pages/             # Additional HTML pages
+├── scripts/           # JS utilities
+├── styling/           # Extra CSS/themes
 └── README.md
-🛠 Getting Started (Development)
-Clone the repository
+```
 
-bash
-Copy code
+---
+
+### 🛠 Getting Started
+Clone the Repository
+```
 git clone https://github.com/opensource-society/NotesVault.git
 cd NotesVault
-Open the app
-Simply open index.html in your browser. All data is stored locally via JSON or localStorage.
+```
+---
 
-Develop and test
+## Run the App
+You can run NotesVault by simply opening index.html in your browser.
+All data is stored locally using JSON or localStorage.
 
-Edit notes.json to simulate new data
 
-Modify layout or logic in style.css and script.js
 
-Use browser DevTools to inspect results
+## 👨‍💻 Contributing
 
-🧑‍💻 Contributing
-We welcome all kinds of contributions, especially from beginners! Since the project is in early stages, you can help build core features from scratch.
+We welcome all contributions — especially from beginners!  
+📖 See `CONTRIBUTING.md` for contribution guidelines.
 
-Good first issues:
+---
 
-Setup basic UI structure or card layout
+## 👩‍🏫 Meet Your Learning Buddy
 
-Add new subjects or notes to JSON
+🧠 "Sort the chaos."  
+⬆️ "Upload effortlessly."  
+📦 "Access everything in one place."
 
-Implement search and filtering logic
+## 📄 License
+📝 This project is licensed under the MIT License.
 
-Improve design responsiveness
+## 💬 Community & Support
+🐛 Open issues or bugs in GitHub Issues
+⭐ Star the repository to support our work!
 
-Add support for dark mode
-
-Add upload simulation with preview
-
-See CONTRIBUTING.md to get started.
-
-📄 License
-This project is licensed under the MIT License.
-
-🆕 Updates
-Added favicon (favicon.ico) to the site.
-
-Added app icon (Icon.jpg) to the header, left of the app name.
